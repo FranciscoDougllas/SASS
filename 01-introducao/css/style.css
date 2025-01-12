@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+body h1 {
+  font-size: 3rem;
+  padding: 10px;
+  margin: 10px;
+  background-color: red;
+  color: black;
+}
+body h1 span {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}

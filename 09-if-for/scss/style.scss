@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid black;
+}
+
+@for $i from 1 through 10{
+    .item-#{$i} {
+        width: 100px * $i;
+        height: 100px * $i;
+        background-color: rgb(0, 0, 0) + $i * 10;
+        margin: 10px;
+        border: 2px solid black;
+
+        @if $i % 2 == 0 {
+            background-color: red;
+        }
+        @else{
+            background-color: blue;
+        }
+    }
+}

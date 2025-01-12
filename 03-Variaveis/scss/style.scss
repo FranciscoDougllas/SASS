@@ -1,0 +1,19 @@
+//Variaveis
+$cor-fundo: #ff0000;
+$cor-fonte: #000;
+$borda: 5px;
+
+body{
+    background-color: $cor-fundo;
+    color: $cor-fonte;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    border: $borda solid $cor-fonte;
+    background-color: $cor-fundo;
+
+}

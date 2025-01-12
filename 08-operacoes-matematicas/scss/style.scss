@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    li {
+        display: inline-block;
+    }
+}
+
+%item{
+    background-color: #222;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #000;
+}
+
+$item-width: 100px;
+$item-height: 40px;
+
+.item{
+    @extend %item;
+    margin: 10px;
+}
+
+.item-duplo{
+    @extend %item;
+    margin: 10px;
+    width: $item-width * 2;
+}

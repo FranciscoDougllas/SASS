@@ -1,0 +1,2 @@
+sass --watch watch.scss:watch.css
+sass --watch watch.scss:watch.css --style compressed

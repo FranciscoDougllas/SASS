@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+
+.item-duplo, .item {
+  background-color: #222;
+  height: 40px;
+  width: 100px;
+  border: 2px solid #000;
+}
+
+.item {
+  margin: 10px;
+}
+
+.item-duplo {
+  margin: 10px;
+  width: 200px;
+}
